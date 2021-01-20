@@ -37,7 +37,7 @@ public class MobileAndGeolocation {
     page.navigate("https://www.openstreetmap.org/");
     page.click("a[data-original-title=\"Show My Location\"]");
     page.screenshot(new Page.ScreenshotOptions().withPath(Paths.get("colosseum-pixel2.png")));
-    browser.close();
-    playwright.close();
+    // browser.close();
+    // playwright.close();
   }
 }
